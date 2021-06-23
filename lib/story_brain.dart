@@ -62,7 +62,7 @@ class StoryBrain {
       storyNumber = 5;
     } else if (choiceNumber == 2 && storyNumber == 2) {
       storyNumber = 4;
-    } else {
+    } else if (storyNumber == 3 || storyNumber == 4 || storyNumber == 5) {
       reset();
     }
   }
